@@ -1,0 +1,160 @@
+.main {
+    display: flex;
+}
+.myAvatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+}
+.leftContent {
+    flex:1;
+}
+.rightContent {
+    flex :2;
+}
+.searchChatInput {
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: #f5f5f5;
+    border-width: 1px;
+}
+.topLeftContent {
+    height: 100px;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 2px solid lightgrey;
+}
+.bottomLeftContent {
+    padding: 20px;
+    padding-right: 0;
+}
+.rightContent {
+    border-left: 2px solid lightgrey;
+}
+.chats {
+    color: lightskyblue;
+    font-size: 20px;
+}
+.avatarChat {
+    display: flex;
+    justify-content: flex-start;
+}
+.avatarChat p {
+    margin: 0;
+    padding-left: 15px;
+}
+.avatarChat p:first-child {
+    font-size: 17px;
+}
+.avatarChat p:last-child {
+    font-size: 14px;
+    color: grey;
+}
+.data p {
+    margin: 0;
+}
+.data input {
+    border: none;
+    font-size: 14px;
+    color: darkgrey;
+    width: 85px;
+}
+.chatFlex {
+    display: flex;
+    justify-content: space-between;
+}
+ .chatFlex{
+    border-bottom: 2px solid lightgrey;
+    padding: 25px 0;
+     padding-right: 15px;
+}
+ .footer {
+     background-color: #f5f5f5;
+     height: 20px;
+     border-top: 2px solid lightgrey;
+ }
+ .rightBottom {
+     display: flex;
+     justify-content: flex-start;
+     padding: 20px;
+     background-color: #f5f5f5;
+     border-bottom: 2px solid lightgrey;
+     flex: 1;
+ }
+.rightBottom p {
+    font-size: 20px;
+    margin: 0;
+    line-height: 45px;
+    padding-left: 15px;
+}
+.chatSpeaking {
+    display: flex;
+    padding: 20px;
+}
+.chatSpeaking a {
+    padding: 5px;
+}
+.chatSpeaking p  {
+    padding: 0 10px;
+}
+.mainChat {
+    flex: 8;
+}
+.firstMessage {
+     background-color:#393f53 ;
+     border-radius: 30px;
+     line-height: 40px;
+     color: white;
+ }
+.firstMessage p {
+    margin: 0;
+}
+.dateTime input {
+    border: none;
+    font-size: 11px;
+    color: darkgrey;
+    width: 90px;
+}
+.dateTime p {
+    margin: 0;
+}
+
+.icon {
+    content: '&#xf002';
+}
+.second p {
+    text-align: right;
+}
+
+.chatSpeakingTwo {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: end;
+}
+.bottomSendMessage {
+    background-color: #f5f5f5;
+}
+.sendMessage input {
+    margin: 0 auto;
+    height: 40px;
+}
+.sendMessage {
+    padding: 20px;
+}
+.rightContent {
+    display: flex;
+    flex-direction: column;
+}
+.bottomSendMessage {
+    flex: 1;
+
+}
+.mainMessage__Data {
+    color: gray;
+    font-size: 13px;
+}

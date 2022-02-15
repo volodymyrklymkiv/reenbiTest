@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reenbit chat</title>
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main class="main">
+        <section class="leftContent">
+            <div class="topLeftContent">
+                <div class="avatar">
+                    <a>
+                        <img class="myAvatar" src="img/myPhoto.jpg" alt="yourAvatar">
+                    </a>
+                </div>
+                <div class="searchChat">
+                    <form action="" method="get">
+                        <i class="icon fa-solid fa-file-magnifying-glass"></i>
+                    <input class="searchChatInput" type="search" placeholder="&#xf002; Search or start new chat">
+                    </form>
+                </div>
+            </div>
+            <div class="bottomLeftContent">
+                <div class="chats">
+                    <p>Chats</p>
+                </div>
+                <div class="chatFlex">
+                    <div class="avatarChat">
+                        <div class="imageContainer" >
+                            <a>
+                                <img class="myAvatar" src="img/myPhoto.jpg" alt="yourAvatar">
+                            </a>
+                        </div>
+                        <div>
+                            <p>Alice Freeman</p>
+                            <p>You are the worst!</p>
+                        </div>
+                    </div>
+                    <div class ="data">
+                        <p>
+                            <input type="datetime" value="Jun 12, 2017">
+                        </p>
+                    </div>
+                </div>
+                <div class="chatFlex">
+                    <div class="avatarChat">
+                        <div >
+                            <a>
+                                <img class="myAvatar" src="img/myPhoto.jpg" alt="yourAvatar">
+                            </a>
+                        </div>
+                        <div>
+                            <p>Josefina</p>
+                            <p>We are losing money! Quick!</p>
+                        </div>
+                    </div>
+                    <div class ="data">
+                        <p>
+                            <input type="datetime" value="Feb 18, 2017">
+                        </p>
+                    </div>
+                </div>
+                <div class="chatFlex">
+                    <div class="avatarChat">
+                        <div >
+                            <a>
+                                <img class="myAvatar" src="img/myPhoto.jpg" alt="yourAvatar">
+                            </a>
+                        </div>
+                        <div>
+                            <p>Velazquez</p>
+                            <p>Quickly come to the meeting room 1B, we have a big server issue</p>
+                        </div>
+                    </div>
+                    <div class ="data">
+                        <p>
+                            <input type="datetime" value="Mar 18, 2017">
+                        </p>
+                    </div>
+                </div>
+                <div class="chatFlex">
+                    <div class="avatarChat">
+                        <div >
+                            <a>
+                                <img class="myAvatar" src="img/myPhoto.jpg" alt="yourAvatar">
+                            </a>
+                        </div>
+                        <div>
+                            <p>Barrera</p>
+                            <p>You are the worst!</p>
+                        </div>
+                    </div>
+                    <div class ="data">
+                        <p>
+                            <input type="datetime" value="Feb 18, 2017">
+                        </p>
+                    </div>
+                </div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+        <section class="rightContent">
+            <div class="rightBottom">
+                <div>
+                    <a>
+                        <img class="myAvatar" src="img/myPhoto.jpg" alt="yourAvatar">
+                    </a>
+                </div>
+                <div>
+                    <p>Josefina</p>
+                </div>
+            </div>
+            <div class="mainChat">
+                <div class="chatSpeaking">
+                    <div>
+                        <a>
+                            <img class="myAvatar" src="img/myPhoto.jpg" alt="yourAvatar">
+                        </a>
+                    </div>
+                    <div class="first" >
+                        <div class="firstMessage">
+                        <p>Quickly come to the meeting room 1B, we have a big server issue</p>
+                        </div>
+
+                        <div class="dateTime">
+                            <p>
+                                <input type="datetime" value="4/22/17, 4.00AM">
+                            </p>
+                        </div>
+                        </div>
+                </div>
+                <div>
+                    <div class="chatSpeakingTwo chatSpeaking" id="messageContainer">
+                        <div class="second" id="myMessages">
+                            <div class="firstMessage secondMessage mainMessage__User1"></div>
+                            <div class="dateTime mainMessage__Data"></div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="chatSpeaking">
+                        <div>
+                            <a>
+                                <img class="myAvatar" src="img/myPhoto.jpg" alt="yourAvatar">
+                            </a>
+                        </div>
+                        <div class="first" >
+                            <div class="firstMessage">
+                                <p>We are loosing money! Quick!</p>
+                            </div>
+
+                            <div class="dateTime">
+                                <p>
+                                    <input type="datetime" value="4/22/17, 4.00AM">
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div></div>
+            </div>
+            <div class="bottomSendMessage">
+                <div class="searchChat sendMessage user1">
+                        <form >
+                        <input id="inputDown" class="searchChatInput user1__form-input" type="text" placeholder="&#xf002; Type your message">
+                        <input type="submit" class="user1__form-submit">
+                    </form>
+                </div>
+                <div class="firstMessage secondMessage mainMessage__User1">
+                    <!-- <p>I am having breakfast right now, can't you wait for 10 minutes?</p> -->
+                </div>
+            </div>
+        </section>
+    </main>
+<div class="footer"></div>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
